@@ -291,7 +291,10 @@ namespace transit_realtime
       SKIPPED = 1,
             
       [global::ProtoBuf.ProtoEnum(Name=@"NO_DATA", Value=2)]
-      NO_DATA = 2
+      NO_DATA = 2,
+
+      [global::ProtoBuf.ProtoEnum(Name=@"ILLEGAL", Value=5)]
+      ILLEGAL = 5
     }
   
     private global::ProtoBuf.IExtension extensionObject;
@@ -749,7 +752,10 @@ namespace transit_realtime
       UNSCHEDULED = 2,
             
       [global::ProtoBuf.ProtoEnum(Name=@"CANCELED", Value=3)]
-      CANCELED = 3
+      CANCELED = 3,
+
+      [global::ProtoBuf.ProtoEnum(Name = @"ILLEGAL", Value = 5)]
+      ILLEGAL = 5
     }
   
     private global::ProtoBuf.IExtension extensionObject;
